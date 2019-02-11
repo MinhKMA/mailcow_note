@@ -1,1 +1,1 @@
-# mailcow_note
+# Ghi chép nhanh về mailcow
