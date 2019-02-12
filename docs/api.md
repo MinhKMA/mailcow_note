@@ -17,6 +17,12 @@
     + attr: `'{"local_part":"admin","domain":"vietkubers.vn","name":"Nguyen Van Minh","quota":"3072","password":"*","password2":"*","active":"1"}'`
     + methol: POST
 
+- Thêm dkim cho domain: 
+
+    + url: `/api/v1/add/dkim`
+    + attr: `'{"domains":"supportdao.com","dkim_selector":"dkim","key_size":"2048"}'`
+    + methol: POST
+
 ## ex:
 
 ```
